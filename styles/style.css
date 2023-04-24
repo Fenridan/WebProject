@@ -1,0 +1,275 @@
+:root {
+    --color-red: #8C6347;
+    --color-active: #938B7D;
+    --color-hoverred: #E2D5C0;
+    --color-white: #ffffff;
+    --text-dark: #3E2410;
+    --text-acvive: black;
+  
+    --grid-gutter: 50px;
+    --grid-gutter-sm: 20px;
+  
+    --font-size-base: 24px;
+    --font-size-h1: 42px;
+    --font-size-h2: 32px;
+    --font-size-h3: 30px;
+}
+* {
+    box-sizing: border-box;
+}
+  
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+  
+body {
+    color: var(--text-dark);
+    font-family: 'Inter';
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    
+}
+  
+a {
+    transition: all 0.25s ease;
+}
+  
+textarea {
+    resize: none;
+}
+  
+/* layout */
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+a:hover {
+    color: var(--color-red);
+    cursor: pointer;
+  transition: all 0.25s ease;
+}
+a:active {
+    color: var(--color-black);
+}
+h1 {
+    font-size: var(--font-size-h1);
+    font-weight: 600;
+}
+h2 {
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+}
+h3 {font-size: var(--font-size-h3);
+    font-weight: 400;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 32px;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: var(--color-red);
+    border-radius: 100px;
+}
+.button:hover {
+    background-color: var(--color-hoverred);
+}
+.button:active {
+    background-color: var(--color-active);
+}
+.one-line__logo {
+    margin-left: 30px;
+}
+.second-line__menu {
+    flex-grow: 4;
+    border-bottom: solid 3px var(--color-red) ;
+}
+.main-menu {
+    list-style-type: none;
+}
+.second-line__tel {
+    flex-grow: 1;
+    text-align: end;
+}
+.one-line__deviz{
+    font-style: italic;
+}
+.header_banner {
+    margin-top: 35px;
+    margin-bottom: 50px;
+
+}
+.title {
+    margin: auto; 
+    border-bottom: solid 3px var(--color-red);
+    display: block;
+    width: max-content;
+    
+}
+.text-block, .h2__history {
+    margin-top: 50px;
+}
+.product-img {
+    display: block;
+    margin: auto;
+}
+.sertificate {
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px var(--color-red);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.varnavino-info {
+margin-top: var(--grid-gutter);
+}
+.varnavino-info-2 {
+    margin-top: 180px;
+    gap: var(--grid-gutter);
+}
+.varnavino-info__text {
+    margin: auto;
+}
+.catalog__link, .catalog__link:hover {
+    color: var(--color-white);
+    font-size: var(--font-size-base);
+}
+
+.Benefits {
+    margin-top: 180px;
+    border: solid 3px var(--color-red);
+    border-radius: 30px;
+}
+.svg-left {
+    margin-left: 50%;
+}
+.Benefits__container {
+    justify-content: space-evenly;
+    height: 150px;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-gutter);
+}
+.news {
+    margin-top:100px;
+}
+.news__block {
+    margin-top: 50px;
+
+}
+.news__img img{
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.news__text {
+    margin: auto;
+}
+.zakaz {
+    margin-top: 20px;
+}
+.zakaz__text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+.zakaz__tel {
+    margin-left: 35%;
+    margin-top: 50px;
+    font-size: var(--font-size-h3);
+    display: block;
+    border-bottom: solid 3px var(--color-red);
+    width: 28%;
+}
+.our-questions {
+    background-color: var(--color-white);
+    border: solid 3px var(--color-red); 
+    border-radius: 70px;
+    width: 800px;
+    margin: auto;
+    padding: 5%;
+}
+.text-form {
+    text-align: center; 
+}
+.contact-form__field {
+    margin: 30px;
+    
+}
+.input-field {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 60px;
+    border: solid 3px var(--color-red);
+}
+.write-us{
+    height: 100px;
+}
+.contact-form__footer {
+    width: 130%;
+    margin: auto;
+}
+.contact-form__submit {
+    color: var(--color-white);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.checkbox__input {
+    width: 25px;
+    height: 25px;
+}
+.product-item__block {
+    margin-bottom: 10px;
+}
+.product-item__text {
+    display: block;
+    margin-left: var(--grid-gutter);
+}
+.price-button {
+    margin-left: 45%;
+    margin-top: 50px;
+}
+.price-button__link {
+    color: var(--color-white);
+    font-size: var(--font-size-base);
+}
+footer {
+    background-color: var(--color-red);
+    margin-top: 5px;
+}
+footer p {
+    color: var(--color-white);
+}
+.social__text {
+    text-align: center;
+}

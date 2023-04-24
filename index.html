@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake&Pie</title>
+  <!-- подключаем шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- <link rel="stylesheet" href="styles/hamburgers.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- <link rel="stylesheet" href="styles/responsive.css"> -->
+</head>
+
+<body bgcolor="#C4B59D">
+  <div class="container">
+  <!-- шапка сайта -->
+    <header>
+      <div class="one-line d-flex">
+        <a href="index.html"><p class="one-line__logo">
+	<strong>Cake & Pie</strong></p></a>
+        <p class="one-line__deviz"> Создавая свою продукцию, <br> мы заботимся о вашем <br> настроении!</p> 
+      </div>
+      <div class="second-line d-flex">
+        <!-- меню -->
+        <nav class="second-line__menu">
+          <ul class="main-menu d-flex">
+            <li> <a href="torts.html"> Торты</a></li>
+            <li> <a href="deserts.html"> Десерты</a></li>
+            <li> <a href="contacts.html"> Контакты </a></li>
+	    <li> <a class="second-line__tel"> +7(999) 999-99-99</a> </li>
+          </ul>
+        </nav>
+      </div>
+      <img class="header_banner" src="NewImages/Заставка.jpg" alt="хлебушек">
+    </header>
+    <!-- основной контент -->
+    <div class="content">
+      <h1 class="title">Самые сладкие десерты!</h1>
+      <section class="varnavino-info d-flex">
+        <div class="varnavino-info__text">
+          <p class="varnavino-info__text-block">
+            Кондитерская <strong>"Cake & Pie"</strong>,<br>вышла на новый уровень.
+          </p>
+          <p class="varnavino-info__text-block">
+            На наших кухнях постоянно обновляется<br> материально-техническая база<br> и улучшаются условия труда.  
+          </p>
+        </div>
+        <div class="varnavino-info__img">
+          <img src="NewImages/Оборудование.jpg" alt="готовим хлебушек">
+        </div> 
+      </section>
+      <section class="varnavino-info-2 d-flex">
+        <div class="varnavino-info__img">
+          <img src="NewImages/Макаронсы.jpg" alt="продаем хлебушек">
+        </div>
+        <div class="varnavino-info__text">
+          <p class="varnavino-info__text-block">
+            Ассортимент нашей продукции включает в себя самые разные и интересные изделия. Они изготавливаются из натуральных продуктов с приминением современных технологии.
+          </p>
+          <div class="catalog  button">
+            <a class="catalog__link" href="">Каталог продукции</a>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+    
+    <!-- основные приемущества -->
+    <div class="Benefits">
+      <h2>Наши преимущества</h2>
+      <div class="Benefits__container d-flex">
+        <div class="Benefit ">
+          <p>Использование инноваций</p>
+          <div class="svg svg-left">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#79553D"/>
+            </svg>
+          </div>
+        </div>
+        <div class="Benefit">
+          <p>Готовим с любовью</p>
+          <div class="svg svg-left">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#79553D"/>
+            </svg>
+          </div>
+        </div>
+        <div class="Benefit">
+          <p>С 404 года на рынке</p>
+          <div class="svg svg-left">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#79553D"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- блок новостей -->
+    <div class="news">
+      <h2>Последние новости</h2>
+      <div class="news__block d-grid">
+        <div class="news__img">
+          <img src="NewImages/Набережная.jpg" alt="новость" >
+        </div>
+        <div class="news__text">
+          <h3>Открытие нового филиала на<br>Нижне-Волжской Набережной</h3>
+          <p>В рамках расширения сети кондитерских, было принято решение открыть новую кондитерскую лавку в одном из самых популярных мест в Нижнем Новгороде!<br><strong>С нетерпением ждём новых клиентов!<strong/></p>
+        </div>
+      </div>
+    </div>
+    <!-- можно заказать -->
+    <section class="zakaz"> 
+      <p class="zakaz__text">Вы можете заказать у нас <br> продукцию для дома и <br> для праздников </p>
+      <div class="news__img">
+        <img src="NewImages/cake.jpg" alt="новость">
+      </div>
+      <p class="zakaz__tel">
+        <a class="zakaz__tel-link">Телефон для заказа <br> +7(999) 999-99-99</a>
+      </p>
+    </section>
+  </div>
+  <!-- подвал сайта -->
+  <footer>
+    <div class="container d-flex">
+      <div class="footer__text">
+        <p>Ориентиры рядом: счастливые и довольные люди, улыбки на лицах.</p>
+        <p>Нижегородская область, район Нижегородский, ул. любая, дом красивый </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
